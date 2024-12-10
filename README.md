@@ -14,13 +14,13 @@ init.py: The main object for dehazing images.
 extract.py: Displays the extracted vehicle number plate number and alphabets on the image, showing them only within the detected number plate area.
 
 ## Usage
-1.Dehazing an image: To dehaze an image, you run __init__.py directly
+1. Dehazing an image: To dehaze an image, you run __init__.py directly
    python _init_.py --input image_path --output dehazed_image_path
-2.Detecting and processing the image: Use 1run.py for detecting vehicle number plates in grey-scaled and haze-corrected images:
+2. Detecting and processing the image: Use 1run.py for detecting vehicle number plates in grey-scaled and haze-corrected images:
    python 1run.py --input dehazed_image_path
-3.Detecting and extracting the vehicle number plate: Use 2run.py to detect the number plate and extract the number:
+3. Detecting and extracting the vehicle number plate: Use 2run.py to detect the number plate and extract the number:
    python 2run.py --input image_path
-4.Displaying extracted number plate information: Use extract.py to display the detected numbers and alphabets in the number plate:
+4. Displaying extracted number plate information: Use extract.py to display the detected numbers and alphabets in the number plate:
    python extract.py --input detected_image_path
 
 
