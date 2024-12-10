@@ -8,7 +8,7 @@ OCR
 yoloV8
 
 ## Project Structure
-1. init.py: The main object for dehazing images.
+1. __init__.py: The main object for dehazing images.
 2. 1run.py: Detects and processes grey-scaled and haze-corrected images using the dehazing functionality from init.py.
 3. 2run.py: Detects the vehicle number plate and extracts the number plate text (letters and digits).
 4. extract.py: Displays the extracted vehicle number plate number and alphabets on the image, showing them only within the detected number plate area.
