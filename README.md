@@ -42,7 +42,7 @@ yoloV8
    2. Number Plate Detection Outputs:
      The outputs of detecting vehicle number plates, processed by 2run.py, are stored in the runs folder.
      This folder contains subfolders with the detection results, including the bounding boxes around number plates and extracted text.
-## Example ouputflow
+## Example ouput flow
   1. Input Image → Processed using init.py → Dehazed Image (stored in outputimages).
   2. Dehazed Image → Processed using 2run.py → Detected Number Plates (stored in runs).
 
